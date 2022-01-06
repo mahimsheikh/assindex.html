@@ -1,5 +1,5 @@
 body{
-    font-family: 'Teko', sans-serif;
+    font-family: 'Lora', serif;
 }
 h1{
     font-size: 50px;
@@ -37,14 +37,14 @@ h1{
     margin-right: 5%;
     padding-left:1%;
     padding-right:1% ;
-    border-radius: 10%;
-    box-shadow: 10px 10px 35px #ee9e0a;
+    border-radius: 9%;
+    box-shadow: 10px 10px 43px rgb(12, 52, 161);
     background-color: hsl(330, 62%, 77%);
 }
 .font-edit img{
-    width:42%;
+    width:50%;
 }
-#font-centar{
+.font-centar{
     text-align:center;
 }
 .third-section{
@@ -53,7 +53,7 @@ h1{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position:left;
-    background-size:23%;
+    background-size:17%;
 }
 .second-half-side{
     width: 50%;
@@ -75,4 +75,26 @@ h1{
 }
 .push img{
     width: 75%;
+}
+.five-section{
+    display: flex;
+}
+.middle{
+    width:50%;
+    margin-left:4%;
+}
+.middle img{
+    width: 60%;
+    margin-left: 26%;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size:60%;}
+    .footer{
+        background-color: hsl(0, 26%, 14%);
+        color: blanchedalmond;
+        text-align: center;
+}
+.last-colour{
+    color: brown;
+    font-size:95%;
 }

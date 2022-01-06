@@ -1,0 +1,32 @@
+body{
+    font-family: 'Teko', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.tillte-colour{
+    color: orange;
+}
+section{
+    display: flex;
+    margin-left: 9%;
+}
+.half-side{
+    width:50%;
+}
+.half-side img{
+    width:65%;
+    margin-left: 3%;
+}
+.batom{
+    text-decoration: none;
+    background-image: linear-gradient(#0d71ce,orange);
+    padding: 10px 15px;
+    border: 5%;
+    border-radius: 15%;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.left-margin{
+    border-left:4px #e9390e solid;
+}

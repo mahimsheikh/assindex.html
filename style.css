@@ -7,8 +7,9 @@ h1{
 .tillte-colour{
     color: orange;
 }
-section{
+.slide{
     display: flex;
+    margin-bottom: 150px;
     margin-left: 9%;
 }
 .half-side{
@@ -29,4 +30,49 @@ section{
 }
 .left-margin{
     border-left:4px #e9390e solid;
+}
+.font-edit{
+    width:45%;
+    margin-left:5%;
+    margin-right: 5%;
+    padding-left:1%;
+    padding-right:1% ;
+    border-radius: 10%;
+    box-shadow: 10px 10px 35px #ee9e0a;
+    background-color: hsl(330, 62%, 77%);
+}
+.font-edit img{
+    width:42%;
+}
+#font-centar{
+    text-align:center;
+}
+.third-section{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size:23%;
+}
+.second-half-side{
+    width: 50%;
+    margin-left: 5%;
+}
+.second-half-side img{
+    width:75%;
+    margin-left:20%;
+}
+.four-section{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;background-size:19%;
+    background-position: right;
+}
+.push{
+    width: 50%;
+    margin-left:8% ;
+}
+.push img{
+    width: 75%;
 }
